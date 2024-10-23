@@ -9,8 +9,7 @@ if (calcular == true) {
     document.querySelector(
         '#root').innerHTML = "The square root of a negative number is not defined";
   } else {
-    document.querySelector('#root').innerHTML = "Square root of " + num +
-        " = " + raiz;
+    document.querySelector('#root').innerHTML = "Square root of " + num + " = " + raiz;
   }
   }
 
